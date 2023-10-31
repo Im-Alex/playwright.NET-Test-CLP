@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v6HmJ5gHgEC7ezYrwIr4M+QAhBWDlju90Ell1hefwF7o5QX7chMPB1MWjd6yUydTLERdO5QC7LY1yVb12F3x+g==",
+  "dgSpecHash": "573pQe2D1iLV0h9xxQOt8unNRYkCJy72wG1LqAsF1ACGBR9cI+vp1W9j5mJKM+cre2NuIku+aKkcfK76CIbbtw==",
   "success": true,
   "projectFilePath": "C:\\Frameworks\\Playwright.NET\\framework\\framework.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\ALEX\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\ALEX\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
     "C:\\Users\\ALEX\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
+    "C:\\Users\\ALEX\\.nuget\\packages\\nunitxml.testlogger\\3.1.15\\nunitxml.testlogger.3.1.15.nupkg.sha512",
     "C:\\Users\\ALEX\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\ALEX\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\ALEX\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

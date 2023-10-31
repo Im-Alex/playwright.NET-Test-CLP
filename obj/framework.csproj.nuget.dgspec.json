@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[4.4.2, )"
             },
+            "NunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.2.0, )"

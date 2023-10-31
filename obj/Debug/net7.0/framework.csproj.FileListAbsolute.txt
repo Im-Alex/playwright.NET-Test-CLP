@@ -398,3 +398,6 @@ C:\Frameworks\Playwright.NET\framework\obj\Debug\net7.0\refint\framework.dll
 C:\Frameworks\Playwright.NET\framework\obj\Debug\net7.0\framework.pdb
 C:\Frameworks\Playwright.NET\framework\obj\Debug\net7.0\framework.genruntimeconfig.cache
 C:\Frameworks\Playwright.NET\framework\obj\Debug\net7.0\ref\framework.dll
+C:\Frameworks\Playwright.NET\framework\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestLogger.dll
+C:\Frameworks\Playwright.NET\framework\bin\Debug\net7.0\Microsoft.VisualStudio.TestPlatform.Extension.NUnit.Xml.TestAdapter.dll
+C:\Frameworks\Playwright.NET\framework\bin\Debug\net7.0\Spekt.TestLogger.dll
