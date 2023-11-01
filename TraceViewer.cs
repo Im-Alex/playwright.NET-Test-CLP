@@ -18,5 +18,11 @@ namespace framework
             });
 
         }
+
+        [Test]
+        public async Task TestNightAlex()
+        {
+            Console.WriteLine("Hello World");
+        }
     }
 }
