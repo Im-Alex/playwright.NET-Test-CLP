@@ -24,5 +24,11 @@ namespace framework
         {
             Console.WriteLine("Hello World");
         }
+
+        [Test]
+        public async Task TestDemoCarlos()
+        {
+            Console.WriteLine("Hello World");
+        }
     }
 }
