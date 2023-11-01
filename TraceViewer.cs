@@ -1,11 +1,13 @@
 ﻿
 using Microsoft.Playwright;
+using NUnit.Framework;
 
 namespace framework
 {
     public class TraceViewer
     {
         [Test]
+        
         public async Task TraceVieweExample()
         {
             //Playwright
@@ -29,6 +31,14 @@ namespace framework
         public async Task TestDemoCarlos()
         {
             Console.WriteLine("Hello World");
+        }
+
+
+        [Test]
+
+        public async Task QaTeamDemo()
+        {
+            Console.WriteLine("QaTeamDemo");
         }
     }
 }
