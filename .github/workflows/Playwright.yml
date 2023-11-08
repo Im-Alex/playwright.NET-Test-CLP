@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: "Importing results to Xray"
-      uses: mikepenz/xray-action@v3.0.2
+      uses: mikepenz/xray-action@v2.4.5
       with: 
         username: CLIENT_ID
         password: CLIENT_SECRET
