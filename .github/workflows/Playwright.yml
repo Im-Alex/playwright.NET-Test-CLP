@@ -21,7 +21,7 @@ jobs:
       run: dotnet test
 
     - name: "Importing results to Xray"
-      uses: mikepenz/xray-action@{latest-release}
+      uses: mikepenz/xray-action@v3.0.2
       with: 
         username: XrayCredentials.CLIENT_ID
         password: XrayCredentials.CLIENT_SECRET
