@@ -19,3 +19,13 @@ jobs:
       run: pwsh bin/Debug/net7.0/playwright.ps1 install --with-deps
     - name: Run your tests
       run: dotnet test
+
+    - name: "Importing results to Xray"
+      uses: mikepenz/xray-action@{latest-release}
+      with: 
+        username: ""
+        password: ""
+        testFormat: "junit"
+        testPaths: ""
+        testExecKey: ""
+        projectKey: ""
