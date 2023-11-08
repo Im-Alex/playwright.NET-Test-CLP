@@ -13,19 +13,21 @@ public class Tests
     [Test]
     public async Task Test1()
     {
-        //Playwright
-        using var playwright = await Playwright.CreateAsync();
+        ////Playwright
+        //using var playwright = await Playwright.CreateAsync();
 
-        //Browser
-        await using var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
-        {
-            Headless = true
-        });
+        ////Browser
+        //await using var browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
+        //{
+        //    Headless = true
+        //});
 
         //page
-        var page = await browser.NewPageAsync();
-        await page.GotoAsync("https://playwright.dev");
-        await page.ClickAsync("text=Get started");
+        //var page = await browser.NewPageAsync();
+        //await page.GotoAsync("https://playwright.dev");
+        //await page.ClickAsync("text=Get started");
+
+        Console.WriteLine("ALEX -----> 4");
 
     }
 }

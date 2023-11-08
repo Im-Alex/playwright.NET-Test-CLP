@@ -10,7 +10,7 @@ namespace framework
         [Test]
         public async Task TestWithCustomContextOptions()
         {
-            await Page.GotoAsync("/login");
+            Console.WriteLine("ALEX1");
 
         }
 

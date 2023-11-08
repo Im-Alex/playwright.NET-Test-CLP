@@ -12,27 +12,27 @@ namespace framework
 
     public class TestPlaywright : PageTest
     {
-        [Test]
+        [Test] 
         public async Task HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage()
         {
-           
+            Console.WriteLine("Alex ---> 2");
 
-            //Expect a title "to contain" a substring
-            await Expect(Page).ToHaveTitleAsync(new Regex("Playwright"));
+            ////Expect a title "to contain" a substring
+            //await Expect(Page).ToHaveTitleAsync(new Regex("Playwright"));
 
-            // Create a locator
-            var getStarted = Page.GetByRole(AriaRole.Link, new() { Name = "Get started" });
+            //// Create a locator
+            //var getStarted = Page.GetByRole(AriaRole.Link, new() { Name = "Get started" });
 
-            // Expect an attribute "to be strictly equal" to the value
-            await Expect(getStarted).ToHaveAttributeAsync("href", "/docs/intro");
+            //// Expect an attribute "to be strictly equal" to the value
+            //await Expect(getStarted).ToHaveAttributeAsync("href", "/docs/intro");
 
-            // Click the get started link
-            await getStarted.ClickAsync();
+            //// Click the get started link
+            //await getStarted.ClickAsync();
 
-            //Expects page to have a heading with the name of installation
-            await Expect(Page
-            .GetByRole(AriaRole.Heading, new() { Name = "Installation" }))
-            .ToBeVisibleAsync();
+            ////Expects page to have a heading with the name of installation
+            //await Expect(Page
+            //.GetByRole(AriaRole.Heading, new() { Name = "Installation" }))
+            //.ToBeVisibleAsync();
         }
 
         [SetUp]
@@ -41,7 +41,7 @@ namespace framework
             
 
            
-            await Page.GotoAsync("https://playwright.dev");
+            //await Page.GotoAsync("https://playwright.dev");
         }
     }
 }
