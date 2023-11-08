@@ -23,8 +23,8 @@ jobs:
     - name: "Importing results to Xray"
       uses: mikepenz/xray-action@{latest-release}
       with: 
-        username: "${{CLIENT_ID}}"
-        password: "${{CLIENT_SECRET}}"
+        username: XrayCredentials.CLIENT_ID
+        password: XrayCredentials.CLIENT_SECRET
         testFormat: "junit"
         testPaths: "testResult/test-result.xml"
         projectKey: "TES"
