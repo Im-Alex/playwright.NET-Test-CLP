@@ -23,7 +23,7 @@ jobs:
       with:
         username: ${{ secrets.CLIENT_ID }}
         password: ${{ secrets.CLIENT_SECRET }}
-        testFormat: "junit"
+        testFormat: "nunit"
         testPaths: "testResult/test-result.xml"
         projectKey: "TES"
         testPlanKey: "TES-9"
