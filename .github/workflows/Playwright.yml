@@ -1,21 +1,29 @@
 name: Playwright Tests
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
   pull_request:
-    branches: [ main, master ]
+    branches: [main, master]
+
 jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+
     steps:
-    - name: "Importing results to Xray"
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Run Playwright tests
+      run: |
+        # Comando para ejecutar tus pruebas con Playwright
+
+    - name: Importing results to Xray
       uses: mikepenz/xray-action@v2.4.5
-      with: 
-        username: CLIENT_ID
-        password: CLIENT_SECRET
+      with:
+        username: ${{ secrets.CLIENT_ID }}
+        password: ${{ secrets.CLIENT_SECRET }}
         testFormat: "junit"
         testPaths: "testResult/test-result.xml"
         projectKey: "TES"
         testPlanKey: "TES-9"
-        
