@@ -1,48 +1,51 @@
-<test-run id="2" duration="4.642807" testcasecount="7" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:32:01Z" end-time="2023-11-16T 00:32:06Z">
-  <test-suite type="Assembly" name="framework.dll" fullname="C:\Frameworks\Playwright.NET\framework\bin\Debug\net7.0\framework.dll" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:32:01Z" end-time="2023-11-16T 00:32:06Z" duration="4.642807">
-    <test-suite type="TestSuite" name="framework" fullname="framework" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:32:01Z" end-time="2023-11-16T 00:32:06Z" duration="4.642807">
-      <test-suite type="TestFixture" name="Report" fullname="framework.Report" classname="framework.Report" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:32:01Z" end-time="2023-11-16T 00:32:01Z" duration="0.002452">
-        <test-case name="ReportClassExample1" fullname="framework.Report.ReportClassExample1" methodname="ReportClassExample1" classname="Report" result="Passed" start-time="2023-11-16T 00:32:01Z" end-time="2023-11-16T 00:32:01Z" duration="0.002452" asserts="0" seed="1027549623">
+<test-run id="2" duration="2.544816" testcasecount="7" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:49:22Z" end-time="2023-11-16T 00:49:26Z">
+  <test-suite type="Assembly" name="framework.dll" fullname="C:\Frameworks\Playwright.NET\framework\bin\Debug\net7.0\framework.dll" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:49:23Z" end-time="2023-11-16T 00:49:25Z" duration="2.544816">
+    <test-suite type="TestSuite" name="framework" fullname="framework" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:49:23Z" end-time="2023-11-16T 00:49:25Z" duration="2.544816">
+      <test-suite type="TestFixture" name="Report" fullname="framework.Report" classname="framework.Report" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:49:23Z" end-time="2023-11-16T 00:49:23Z" duration="0.002214">
+        <test-case name="ReportClassExample1" fullname="framework.Report.ReportClassExample1" methodname="ReportClassExample1" classname="Report" result="Passed" start-time="2023-11-16T 00:49:23Z" end-time="2023-11-16T 00:49:23Z" duration="0.002214" asserts="0" seed="675895725">
           <properties>
             <property name="Value 1" value="Value 2" />
-            <property name="Category" value="LABEL" />
+            <property name="Category" value="TES-36" />
           </properties>
           <output><![CDATA[Example Report 1
 
 ]]></output>
         </test-case>
       </test-suite>
-      <test-suite type="TestFixture" name="TestPlaywright" fullname="framework.TestPlaywright" classname="framework.TestPlaywright" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:32:01Z" end-time="2023-11-16T 00:32:04Z" duration="2.618606">
-        <test-case name="HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage" fullname="framework.TestPlaywright.HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage" methodname="HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage" classname="TestPlaywright" result="Passed" start-time="2023-11-16T 00:32:01Z" end-time="2023-11-16T 00:32:04Z" duration="2.618606" asserts="0" seed="123636774">
+      <test-suite type="TestFixture" name="TestPlaywright" fullname="framework.TestPlaywright" classname="framework.TestPlaywright" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:49:23Z" end-time="2023-11-16T 00:49:24Z" duration="1.281445">
+        <test-case name="HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage" fullname="framework.TestPlaywright.HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage" methodname="HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage" classname="TestPlaywright" result="Passed" start-time="2023-11-16T 00:49:23Z" end-time="2023-11-16T 00:49:24Z" duration="1.281445" asserts="0" seed="1043182183">
+          <properties>
+            <property name="Category" value="TES-17" />
+          </properties>
           <output><![CDATA[Alex ---> 2
 
 ]]></output>
         </test-case>
       </test-suite>
-      <test-suite type="TestFixture" name="Tests" fullname="framework.Tests" classname="framework.Tests" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:32:04Z" end-time="2023-11-16T 00:32:04Z" duration="0.000368">
-        <test-case name="Test1" fullname="framework.Tests.Test1" methodname="Test1" classname="Tests" result="Passed" start-time="2023-11-16T 00:32:04Z" end-time="2023-11-16T 00:32:04Z" duration="0.000368" asserts="0" seed="1434540481">
+      <test-suite type="TestFixture" name="Tests" fullname="framework.Tests" classname="framework.Tests" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:49:24Z" end-time="2023-11-16T 00:49:24Z" duration="0.000578">
+        <test-case name="Test1" fullname="framework.Tests.Test1" methodname="Test1" classname="Tests" result="Passed" start-time="2023-11-16T 00:49:24Z" end-time="2023-11-16T 00:49:24Z" duration="0.000578" asserts="0" seed="2125856133">
           <output><![CDATA[ALEX -----> 4
 
 ]]></output>
         </test-case>
       </test-suite>
-      <test-suite type="TestFixture" name="TraceViewer" fullname="framework.TraceViewer" classname="framework.TraceViewer" total="4" passed="4" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:32:04Z" end-time="2023-11-16T 00:32:06Z" duration="2.021381">
-        <test-case name="QaTeamDemo" fullname="framework.TraceViewer.QaTeamDemo" methodname="QaTeamDemo" classname="TraceViewer" result="Passed" start-time="2023-11-16T 00:32:04Z" end-time="2023-11-16T 00:32:04Z" duration="0.000201" asserts="0" seed="2125092576">
+      <test-suite type="TestFixture" name="TraceViewer" fullname="framework.TraceViewer" classname="framework.TraceViewer" total="4" passed="4" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 00:49:24Z" end-time="2023-11-16T 00:49:25Z" duration="1.260579">
+        <test-case name="QaTeamDemo" fullname="framework.TraceViewer.QaTeamDemo" methodname="QaTeamDemo" classname="TraceViewer" result="Passed" start-time="2023-11-16T 00:49:24Z" end-time="2023-11-16T 00:49:24Z" duration="0.000441" asserts="0" seed="1473785091">
           <output><![CDATA[QaTeamDemo
 
 ]]></output>
         </test-case>
-        <test-case name="TestDemoCarlos" fullname="framework.TraceViewer.TestDemoCarlos" methodname="TestDemoCarlos" classname="TraceViewer" result="Passed" start-time="2023-11-16T 00:32:04Z" end-time="2023-11-16T 00:32:04Z" duration="0.000172" asserts="0" seed="2013536884">
+        <test-case name="TestDemoCarlos" fullname="framework.TraceViewer.TestDemoCarlos" methodname="TestDemoCarlos" classname="TraceViewer" result="Passed" start-time="2023-11-16T 00:49:24Z" end-time="2023-11-16T 00:49:24Z" duration="0.000316" asserts="0" seed="221663150">
           <output><![CDATA[Hello World
 
 ]]></output>
         </test-case>
-        <test-case name="TestNightAlex" fullname="framework.TraceViewer.TestNightAlex" methodname="TestNightAlex" classname="TraceViewer" result="Passed" start-time="2023-11-16T 00:32:04Z" end-time="2023-11-16T 00:32:04Z" duration="0.000134" asserts="0" seed="621561562">
+        <test-case name="TestNightAlex" fullname="framework.TraceViewer.TestNightAlex" methodname="TestNightAlex" classname="TraceViewer" result="Passed" start-time="2023-11-16T 00:49:24Z" end-time="2023-11-16T 00:49:24Z" duration="0.000295" asserts="0" seed="1636117218">
           <output><![CDATA[Hello World
 
 ]]></output>
         </test-case>
-        <test-case name="TraceVieweExample" fullname="framework.TraceViewer.TraceVieweExample" methodname="TraceVieweExample" classname="TraceViewer" result="Passed" start-time="2023-11-16T 00:32:04Z" end-time="2023-11-16T 00:32:06Z" duration="2.020874" asserts="0" seed="1589642957" />
+        <test-case name="TraceVieweExample" fullname="framework.TraceViewer.TraceVieweExample" methodname="TraceVieweExample" classname="TraceViewer" result="Passed" start-time="2023-11-16T 00:49:24Z" end-time="2023-11-16T 00:49:25Z" duration="1.259527" asserts="0" seed="200393602" />
       </test-suite>
     </test-suite>
     <errors />
