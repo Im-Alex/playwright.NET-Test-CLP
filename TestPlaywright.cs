@@ -13,7 +13,7 @@ namespace framework
     public class TestPlaywright : PageTest
     {
         [Test]
-        [Category("TES-17")]
+        [Category("TES-43")]
         public async Task HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage()
         {
             Console.WriteLine("Alex ---> 2");

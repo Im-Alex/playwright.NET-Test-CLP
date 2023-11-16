@@ -11,6 +11,7 @@ public class Tests
     }
 
     [Test]
+    [Category("TES-38")]
     public async Task Test1()
     {
         ////Playwright
