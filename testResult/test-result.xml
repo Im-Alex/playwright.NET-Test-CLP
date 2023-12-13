@@ -1,8 +1,8 @@
-<test-run id="2" duration="2.91437" testcasecount="7" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 01:18:32Z" end-time="2023-11-16T 01:18:35Z">
-  <test-suite type="Assembly" name="framework.dll" fullname="C:\Frameworks\Playwright.NET\framework\bin\Debug\net7.0\framework.dll" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 01:18:32Z" end-time="2023-11-16T 01:18:35Z" duration="2.91437">
-    <test-suite type="TestSuite" name="framework" fullname="framework" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 01:18:32Z" end-time="2023-11-16T 01:18:35Z" duration="2.91437">
-      <test-suite type="TestFixture" name="Report" fullname="framework.Report" classname="framework.Report" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 01:18:32Z" end-time="2023-11-16T 01:18:32Z" duration="0.001928">
-        <test-case name="ReportClassExample1" fullname="framework.Report.ReportClassExample1" methodname="ReportClassExample1" classname="Report" result="Passed" start-time="2023-11-16T 01:18:32Z" end-time="2023-11-16T 01:18:32Z" duration="0.001928" asserts="0" seed="39300029">
+<test-run id="2" duration="20.092046" testcasecount="8" total="8" passed="7" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 05:40:50Z" end-time="2023-12-13T 05:41:11Z">
+  <test-suite type="Assembly" name="framework.dll" fullname="C:\Frameworks\Playwright.NET\framework\bin\Debug\net7.0\framework.dll" total="8" passed="7" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 05:40:51Z" end-time="2023-12-13T 05:41:11Z" duration="20.092046">
+    <test-suite type="TestSuite" name="framework" fullname="framework" total="7" passed="7" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-12-13T 05:40:51Z" end-time="2023-12-13T 05:41:11Z" duration="3.083941">
+      <test-suite type="TestFixture" name="Report" fullname="framework.Report" classname="framework.Report" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-12-13T 05:40:51Z" end-time="2023-12-13T 05:40:51Z" duration="0.003334">
+        <test-case name="ReportClassExample1" fullname="framework.Report.ReportClassExample1" methodname="ReportClassExample1" classname="Report" result="Passed" start-time="2023-12-13T 05:40:51Z" end-time="2023-12-13T 05:40:51Z" duration="0.003334" asserts="0" seed="348812822">
           <properties>
             <property name="Value 1" value="Value 2" />
             <property name="Category" value="TES-44" />
@@ -12,8 +12,8 @@
 ]]></output>
         </test-case>
       </test-suite>
-      <test-suite type="TestFixture" name="TestPlaywright" fullname="framework.TestPlaywright" classname="framework.TestPlaywright" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 01:18:32Z" end-time="2023-11-16T 01:18:33Z" duration="1.151492">
-        <test-case name="HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage" fullname="framework.TestPlaywright.HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage" methodname="HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage" classname="TestPlaywright" result="Passed" start-time="2023-11-16T 01:18:32Z" end-time="2023-11-16T 01:18:33Z" duration="1.151492" asserts="0" seed="1927414078">
+      <test-suite type="TestFixture" name="TestPlaywright" fullname="framework.TestPlaywright" classname="framework.TestPlaywright" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-12-13T 05:40:51Z" end-time="2023-12-13T 05:40:53Z" duration="1.964693">
+        <test-case name="HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage" fullname="framework.TestPlaywright.HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage" methodname="HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage" classname="TestPlaywright" result="Passed" start-time="2023-12-13T 05:40:51Z" end-time="2023-12-13T 05:40:53Z" duration="1.964693" asserts="0" seed="303503044">
           <properties>
             <property name="Category" value="TES-43" />
           </properties>
@@ -22,8 +22,8 @@
 ]]></output>
         </test-case>
       </test-suite>
-      <test-suite type="TestFixture" name="Tests" fullname="framework.Tests" classname="framework.Tests" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 01:18:33Z" end-time="2023-11-16T 01:18:33Z" duration="0.000371">
-        <test-case name="Test1" fullname="framework.Tests.Test1" methodname="Test1" classname="Tests" result="Passed" start-time="2023-11-16T 01:18:33Z" end-time="2023-11-16T 01:18:33Z" duration="0.000371" asserts="0" seed="1848386865">
+      <test-suite type="TestFixture" name="Tests" fullname="framework.Tests" classname="framework.Tests" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-12-13T 05:41:10Z" end-time="2023-12-13T 05:41:10Z" duration="0.001158">
+        <test-case name="Test1" fullname="framework.Tests.Test1" methodname="Test1" classname="Tests" result="Passed" start-time="2023-12-13T 05:41:10Z" end-time="2023-12-13T 05:41:10Z" duration="0.001158" asserts="0" seed="1943534492">
           <properties>
             <property name="Category" value="TES-38" />
           </properties>
@@ -32,8 +32,8 @@
 ]]></output>
         </test-case>
       </test-suite>
-      <test-suite type="TestFixture" name="TraceViewer" fullname="framework.TraceViewer" classname="framework.TraceViewer" total="4" passed="4" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-11-16T 01:18:33Z" end-time="2023-11-16T 01:18:35Z" duration="1.760579">
-        <test-case name="QaTeamDemo" fullname="framework.TraceViewer.QaTeamDemo" methodname="QaTeamDemo" classname="TraceViewer" result="Passed" start-time="2023-11-16T 01:18:33Z" end-time="2023-11-16T 01:18:33Z" duration="0.000291" asserts="0" seed="742243321">
+      <test-suite type="TestFixture" name="TraceViewer" fullname="framework.TraceViewer" classname="framework.TraceViewer" total="4" passed="4" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2023-12-13T 05:41:10Z" end-time="2023-12-13T 05:41:11Z" duration="1.114756">
+        <test-case name="QaTeamDemo" fullname="framework.TraceViewer.QaTeamDemo" methodname="QaTeamDemo" classname="TraceViewer" result="Passed" start-time="2023-12-13T 05:41:10Z" end-time="2023-12-13T 05:41:10Z" duration="0.001234" asserts="0" seed="1610477901">
           <properties>
             <property name="Category" value="TES-39" />
           </properties>
@@ -41,7 +41,7 @@
 
 ]]></output>
         </test-case>
-        <test-case name="TestDemoCarlos" fullname="framework.TraceViewer.TestDemoCarlos" methodname="TestDemoCarlos" classname="TraceViewer" result="Passed" start-time="2023-11-16T 01:18:33Z" end-time="2023-11-16T 01:18:33Z" duration="0.00023" asserts="0" seed="2138222121">
+        <test-case name="TestDemoCarlos" fullname="framework.TraceViewer.TestDemoCarlos" methodname="TestDemoCarlos" classname="TraceViewer" result="Passed" start-time="2023-12-13T 05:41:10Z" end-time="2023-12-13T 05:41:10Z" duration="0.000719" asserts="0" seed="347101919">
           <properties>
             <property name="Category" value="TES-40" />
           </properties>
@@ -49,7 +49,7 @@
 
 ]]></output>
         </test-case>
-        <test-case name="TestNightAlex" fullname="framework.TraceViewer.TestNightAlex" methodname="TestNightAlex" classname="TraceViewer" result="Passed" start-time="2023-11-16T 01:18:33Z" end-time="2023-11-16T 01:18:33Z" duration="0.000159" asserts="0" seed="126112302">
+        <test-case name="TestNightAlex" fullname="framework.TraceViewer.TestNightAlex" methodname="TestNightAlex" classname="TraceViewer" result="Passed" start-time="2023-12-13T 05:41:10Z" end-time="2023-12-13T 05:41:10Z" duration="0.000714" asserts="0" seed="1030117592">
           <properties>
             <property name="Category" value="TES-41" />
           </properties>
@@ -57,11 +57,60 @@
 
 ]]></output>
         </test-case>
-        <test-case name="TraceVieweExample" fullname="framework.TraceViewer.TraceVieweExample" methodname="TraceVieweExample" classname="TraceViewer" result="Passed" start-time="2023-11-16T 01:18:33Z" end-time="2023-11-16T 01:18:35Z" duration="1.759899" asserts="0" seed="1025735667">
+        <test-case name="TraceVieweExample" fullname="framework.TraceViewer.TraceVieweExample" methodname="TraceVieweExample" classname="TraceViewer" result="Passed" start-time="2023-12-13T 05:41:10Z" end-time="2023-12-13T 05:41:11Z" duration="1.112089" asserts="0" seed="1028304171">
           <properties>
             <property name="Category" value="TES-42" />
           </properties>
         </test-case>
+      </test-suite>
+    </test-suite>
+    <test-suite type="TestSuite" name="framework" fullname="framework" total="1" passed="0" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 05:40:53Z" end-time="2023-12-13T 05:41:10Z" duration="17.008105">
+      <test-suite type="TestSuite" name="TestCases" fullname="framework.TestCases" total="1" passed="0" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 05:40:53Z" end-time="2023-12-13T 05:41:10Z" duration="17.008105">
+        <test-suite type="TestFixture" name="DemoSessionTwo" fullname="framework.TestCases.DemoSessionTwo" classname="framework.TestCases.DemoSessionTwo" total="1" passed="0" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 05:40:53Z" end-time="2023-12-13T 05:41:10Z" duration="17.008105">
+          <test-case name="LoginWithValidCredentials" fullname="framework.TestCases.DemoSessionTwo.LoginWithValidCredentials" methodname="LoginWithValidCredentials" classname="DemoSessionTwo" result="Failed" start-time="2023-12-13T 05:40:53Z" end-time="2023-12-13T 05:41:10Z" duration="17.008105" asserts="0" seed="950042763">
+            <properties>
+              <property name="Category" value="TES-48" />
+            </properties>
+            <output><![CDATA[NOFalse
+Locator expected not to be visible 
+Call log:
+LocatorAssertions.ToBeVisibleAsync with timeout 5000ms
+waiting for Locator("div#app>div>div>p")
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  Expected: True
+  But was:  False
+
+
+]]></output>
+            <failure>
+              <message>  Expected: True
+  But was:  False
+</message>
+              <stack-trace>   at framework.TestCases.DemoSessionTwo.LoginWithValidCredentials() in C:\Frameworks\Playwright.NET\framework\TestCases\DemoSessionTwo.cs:line 44
+
+1)    at framework.TestCases.DemoSessionTwo.LoginWithValidCredentials() in C:\Frameworks\Playwright.NET\framework\TestCases\DemoSessionTwo.cs:line 44
+
+</stack-trace>
+            </failure>
+          </test-case>
+        </test-suite>
       </test-suite>
     </test-suite>
     <errors />
