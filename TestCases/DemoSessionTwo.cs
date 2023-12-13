@@ -11,9 +11,9 @@ namespace framework.TestCases
 
         [Test, Property("REGRESSION", "LOGIN")]
         [Author("Alejandro Velazquez Valenzuela", "alejandrovelazquezvalenzuela@gmail.com")]
-        [Category("TES-52")]
+        [Category("TES-56")]
         [Description("This test case validates the Login with valid credentials")]
-        public async Task LoginWithValidCredentials()
+        public async Task LoginWithValidCredentials1()
         {
            
 
@@ -55,9 +55,9 @@ namespace framework.TestCases
 
         [Test, Property("REGRESSION", "LOGIN")]
         [Author("Alejandro Velazquez Valenzuela", "alejandrovelazquezvalenzuela@gmail.com")]
-        [Category("TES-53")]
+        [Category("TES-57")]
         [Description("This test case validates the Login with valid credentials")]
-        public async Task LoginWithInvalidCredentials()
+        public async Task LoginWithInvalidCredentials2()
         {
 
 

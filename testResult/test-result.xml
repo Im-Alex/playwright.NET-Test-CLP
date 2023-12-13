@@ -1,12 +1,12 @@
-<test-run id="2" duration="62.924301" testcasecount="2" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:44:36Z" end-time="2023-12-13T 19:45:40Z">
-  <test-suite type="Assembly" name="framework.dll" fullname="C:\Frameworks\Playwright.NET\framework\bin\Debug\net7.0\framework.dll" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:44:37Z" end-time="2023-12-13T 19:45:40Z" duration="62.924301">
-    <test-suite type="TestSuite" name="framework" fullname="framework" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:44:37Z" end-time="2023-12-13T 19:45:40Z" duration="62.924301">
-      <test-suite type="TestSuite" name="TestCases" fullname="framework.TestCases" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:44:37Z" end-time="2023-12-13T 19:45:40Z" duration="62.924301">
-        <test-suite type="TestFixture" name="DemoSessionTwo" fullname="framework.TestCases.DemoSessionTwo" classname="framework.TestCases.DemoSessionTwo" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:44:37Z" end-time="2023-12-13T 19:45:40Z" duration="62.924301">
-          <test-case name="LoginWithInvalidCredentials" fullname="framework.TestCases.DemoSessionTwo.LoginWithInvalidCredentials" methodname="LoginWithInvalidCredentials" classname="DemoSessionTwo" result="Failed" start-time="2023-12-13T 19:44:37Z" end-time="2023-12-13T 19:45:22Z" duration="45.311046" asserts="0" seed="1094963244">
+<test-run id="2" duration="46.043774" testcasecount="2" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:50:30Z" end-time="2023-12-13T 19:51:17Z">
+  <test-suite type="Assembly" name="framework.dll" fullname="C:\Frameworks\Playwright.NET\framework\bin\Debug\net7.0\framework.dll" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:50:31Z" end-time="2023-12-13T 19:51:17Z" duration="46.043774">
+    <test-suite type="TestSuite" name="framework" fullname="framework" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:50:31Z" end-time="2023-12-13T 19:51:17Z" duration="46.043774">
+      <test-suite type="TestSuite" name="TestCases" fullname="framework.TestCases" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:50:31Z" end-time="2023-12-13T 19:51:17Z" duration="46.043774">
+        <test-suite type="TestFixture" name="DemoSessionTwo" fullname="framework.TestCases.DemoSessionTwo" classname="framework.TestCases.DemoSessionTwo" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:50:31Z" end-time="2023-12-13T 19:51:17Z" duration="46.043774">
+          <test-case name="LoginWithInvalidCredentials2" fullname="framework.TestCases.DemoSessionTwo.LoginWithInvalidCredentials2" methodname="LoginWithInvalidCredentials2" classname="DemoSessionTwo" result="Failed" start-time="2023-12-13T 19:50:31Z" end-time="2023-12-13T 19:51:00Z" duration="29.038025" asserts="0" seed="1094963244">
             <properties>
               <property name="REGRESSION" value="LOGIN" />
-              <property name="Category" value="TES-53" />
+              <property name="Category" value="TES-57" />
             </properties>
             <output><![CDATA[NOFalse
 Locator expected to be enabled 
@@ -22,17 +22,17 @@ waiting for GetByRole(AriaRole.Button, new() { Name = "User account details" })
               <message>  Expected: True
   But was:  False
 </message>
-              <stack-trace>   at framework.TestCases.DemoSessionTwo.LoginWithInvalidCredentials() in C:\Frameworks\Playwright.NET\framework\TestCases\DemoSessionTwo.cs:line 90
+              <stack-trace>   at framework.TestCases.DemoSessionTwo.LoginWithInvalidCredentials2() in C:\Frameworks\Playwright.NET\framework\TestCases\DemoSessionTwo.cs:line 90
 
-1)    at framework.TestCases.DemoSessionTwo.LoginWithInvalidCredentials() in C:\Frameworks\Playwright.NET\framework\TestCases\DemoSessionTwo.cs:line 90
+1)    at framework.TestCases.DemoSessionTwo.LoginWithInvalidCredentials2() in C:\Frameworks\Playwright.NET\framework\TestCases\DemoSessionTwo.cs:line 90
 
 </stack-trace>
             </failure>
           </test-case>
-          <test-case name="LoginWithValidCredentials" fullname="framework.TestCases.DemoSessionTwo.LoginWithValidCredentials" methodname="LoginWithValidCredentials" classname="DemoSessionTwo" result="Failed" start-time="2023-12-13T 19:45:22Z" end-time="2023-12-13T 19:45:40Z" duration="17.613255" asserts="0" seed="2004809501">
+          <test-case name="LoginWithValidCredentials1" fullname="framework.TestCases.DemoSessionTwo.LoginWithValidCredentials1" methodname="LoginWithValidCredentials1" classname="DemoSessionTwo" result="Failed" start-time="2023-12-13T 19:51:00Z" end-time="2023-12-13T 19:51:17Z" duration="17.005749" asserts="0" seed="2004809501">
             <properties>
               <property name="REGRESSION" value="LOGIN" />
-              <property name="Category" value="TES-52" />
+              <property name="Category" value="TES-56" />
             </properties>
             <output><![CDATA[NOFalse
 Locator expected not to be visible 
@@ -55,6 +55,8 @@ waiting for Locator("div#app>div>div>p")
   unexpected value "visible"
   locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
   unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
   Expected: True
   But was:  False
 
@@ -64,9 +66,9 @@ waiting for Locator("div#app>div>div>p")
               <message>  Expected: True
   But was:  False
 </message>
-              <stack-trace>   at framework.TestCases.DemoSessionTwo.LoginWithValidCredentials() in C:\Frameworks\Playwright.NET\framework\TestCases\DemoSessionTwo.cs:line 46
+              <stack-trace>   at framework.TestCases.DemoSessionTwo.LoginWithValidCredentials1() in C:\Frameworks\Playwright.NET\framework\TestCases\DemoSessionTwo.cs:line 46
 
-1)    at framework.TestCases.DemoSessionTwo.LoginWithValidCredentials() in C:\Frameworks\Playwright.NET\framework\TestCases\DemoSessionTwo.cs:line 46
+1)    at framework.TestCases.DemoSessionTwo.LoginWithValidCredentials1() in C:\Frameworks\Playwright.NET\framework\TestCases\DemoSessionTwo.cs:line 46
 
 </stack-trace>
             </failure>
