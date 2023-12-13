@@ -1,9 +1,9 @@
-<test-run id="2" duration="80.554574" testcasecount="2" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 06:08:06Z" end-time="2023-12-13T 06:09:27Z">
-  <test-suite type="Assembly" name="framework.dll" fullname="C:\Frameworks\Playwright.NET\framework\bin\Debug\net7.0\framework.dll" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 06:08:06Z" end-time="2023-12-13T 06:09:27Z" duration="80.554574">
-    <test-suite type="TestSuite" name="framework" fullname="framework" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 06:08:06Z" end-time="2023-12-13T 06:09:27Z" duration="80.554574">
-      <test-suite type="TestSuite" name="TestCases" fullname="framework.TestCases" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 06:08:06Z" end-time="2023-12-13T 06:09:27Z" duration="80.554574">
-        <test-suite type="TestFixture" name="DemoSessionTwo" fullname="framework.TestCases.DemoSessionTwo" classname="framework.TestCases.DemoSessionTwo" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 06:08:06Z" end-time="2023-12-13T 06:09:27Z" duration="80.554574">
-          <test-case name="LoginWithInvalidCredentials" fullname="framework.TestCases.DemoSessionTwo.LoginWithInvalidCredentials" methodname="LoginWithInvalidCredentials" classname="DemoSessionTwo" result="Failed" start-time="2023-12-13T 06:08:06Z" end-time="2023-12-13T 06:08:49Z" duration="42.938312" asserts="0" seed="1524698459">
+<test-run id="2" duration="62.924301" testcasecount="2" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:44:36Z" end-time="2023-12-13T 19:45:40Z">
+  <test-suite type="Assembly" name="framework.dll" fullname="C:\Frameworks\Playwright.NET\framework\bin\Debug\net7.0\framework.dll" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:44:37Z" end-time="2023-12-13T 19:45:40Z" duration="62.924301">
+    <test-suite type="TestSuite" name="framework" fullname="framework" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:44:37Z" end-time="2023-12-13T 19:45:40Z" duration="62.924301">
+      <test-suite type="TestSuite" name="TestCases" fullname="framework.TestCases" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:44:37Z" end-time="2023-12-13T 19:45:40Z" duration="62.924301">
+        <test-suite type="TestFixture" name="DemoSessionTwo" fullname="framework.TestCases.DemoSessionTwo" classname="framework.TestCases.DemoSessionTwo" total="2" passed="0" failed="2" inconclusive="0" skipped="0" result="Failed" start-time="2023-12-13T 19:44:37Z" end-time="2023-12-13T 19:45:40Z" duration="62.924301">
+          <test-case name="LoginWithInvalidCredentials" fullname="framework.TestCases.DemoSessionTwo.LoginWithInvalidCredentials" methodname="LoginWithInvalidCredentials" classname="DemoSessionTwo" result="Failed" start-time="2023-12-13T 19:44:37Z" end-time="2023-12-13T 19:45:22Z" duration="45.311046" asserts="0" seed="1094963244">
             <properties>
               <property name="REGRESSION" value="LOGIN" />
               <property name="Category" value="TES-53" />
@@ -29,16 +29,32 @@ waiting for GetByRole(AriaRole.Button, new() { Name = "User account details" })
 </stack-trace>
             </failure>
           </test-case>
-          <test-case name="LoginWithValidCredentials" fullname="framework.TestCases.DemoSessionTwo.LoginWithValidCredentials" methodname="LoginWithValidCredentials" classname="DemoSessionTwo" result="Failed" start-time="2023-12-13T 06:08:49Z" end-time="2023-12-13T 06:09:27Z" duration="37.616262" asserts="0" seed="1448658770">
+          <test-case name="LoginWithValidCredentials" fullname="framework.TestCases.DemoSessionTwo.LoginWithValidCredentials" methodname="LoginWithValidCredentials" classname="DemoSessionTwo" result="Failed" start-time="2023-12-13T 19:45:22Z" end-time="2023-12-13T 19:45:40Z" duration="17.613255" asserts="0" seed="2004809501">
             <properties>
               <property name="REGRESSION" value="LOGIN" />
               <property name="Category" value="TES-52" />
             </properties>
             <output><![CDATA[NOFalse
-Locator expected to be enabled 
+Locator expected not to be visible 
 Call log:
-LocatorAssertions.ToBeEnabledAsync with timeout 10000ms
-waiting for GetByRole(AriaRole.Button, new() { Name = "User account details" })
+LocatorAssertions.ToBeVisibleAsync with timeout 5000ms
+waiting for Locator("div#app>div>div>p")
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
+  locator resolved to <p class="block font-semibold text-primary-800">↵                    Loading...↵                </p>
+  unexpected value "visible"
   Expected: True
   But was:  False
 
