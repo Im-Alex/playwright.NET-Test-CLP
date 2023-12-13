@@ -26,5 +26,5 @@ jobs:
         testFormat: "nunit"
         testPaths: "testResult/test-result.xml"
         projectKey: "TES"
-        testPlanKey: "TES-9"
-        testExecKey: "TES-45"
+        testPlanKey: "TES-49"
+        testExecKey: "TES-50"
