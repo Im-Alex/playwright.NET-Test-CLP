@@ -27,4 +27,4 @@ jobs:
         testPaths: "testResult/test-result.xml"
         projectKey: "TES"
         testPlanKey: "TES-49"
-        testExecKey: "TES-51"
+        testExecKey: "TES-54"
