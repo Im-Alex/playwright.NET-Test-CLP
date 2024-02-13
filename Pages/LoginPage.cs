@@ -39,42 +39,42 @@ namespace framework.Pages
 
             try
             {
-                await _txtUserName.FillAsync(username);
-                await _btnNext.ClickAsync();
+                //await _txtUserName.FillAsync(username);
+                //await _btnNext.ClickAsync();
 
                 //await _page.WaitForSelectorAsync("#i0118", new PageWaitForSelectorOptions()
                 //{
                 //    Timeout = 50
                 //});
                 
-                await _txtPassword.FillAsync(password);
-                await _btnSingIn.ClickAsync();
-                await _page.WaitForLoadStateAsync();
-                await TakePictureWithName("clickAssing");
+                //await _txtPassword.FillAsync(password);
+                //await _btnSingIn.ClickAsync();
+                //await _page.WaitForLoadStateAsync();
+               
                 if (staySignIn)
                 {
                     Console.WriteLine("YES" + staySignIn);
                     await _btnYes.ClickAsync();
                     await TakePictureWithName("Nostayed");
                     await _page.WaitForLoadStateAsync();
+                    await _page.WaitForLoadStateAsync(LoadState.NetworkIdle);
 
-                    
+
                 }
                 else
                 {
                     Console.WriteLine("NO" + staySignIn);
                     await _btnNo.ClickAsync();
                     await _page.WaitForLoadStateAsync();
-                    
-                }
-                await Assertions.Expect(_btnLoading).Not.ToBeVisibleAsync(new() { Timeout = 5000});
-                await TakePictureWithName("btnLogin");
-                await Assertions.Expect(_txtLogginIn).ToBeVisibleAsync(new() { Timeout = 50000 });
+                    await _page.WaitForLoadStateAsync(LoadState.NetworkIdle);
 
+                }
+
+                //await Assertions.Expect(_btnLoading).Not.ToBeVisibleAsync(new() { Timeout = 5000});
+             
+                await Assertions.Expect(_txtLogginIn).ToBeVisibleAsync(new() { Timeout = 50000 });
+                await Assertions.Expect(_btnUserAccountDetails).ToBeVisibleAsync(new() { Timeout = 5000 });
                 //await _btnUserAccountDetails.IsVisibleAsync();
-                
-                await Assertions.Expect(_btnUserAccountDetails).ToBeEnabledAsync(new() { Timeout = 10000 });
-                await TakePictureWithName("WaitingBtnUserAccount");
                 //await _btnUserAccountDetails.IsVisibleAsync();
 
             }
@@ -85,7 +85,7 @@ namespace framework.Pages
           
         }
 
-        public async Task<bool> isDashboardVisible() => await _btnDashboard.IsVisibleAsync(new() { Timeout = 10000});
+        public async Task<bool> isDashboardVisible() => await _btnDashboard.IsVisibleAsync();
 
         public async Task takeScreenShot()
         {
